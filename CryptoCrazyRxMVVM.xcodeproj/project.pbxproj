@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF01C0862C14BD2C001BD2BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF01C0852C14BD2C001BD2BC /* AppDelegate.swift */; };
+		CF01C0882C14BD2C001BD2BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF01C0872C14BD2C001BD2BC /* SceneDelegate.swift */; };
+		CF01C08A2C14BD2C001BD2BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF01C0892C14BD2C001BD2BC /* ViewController.swift */; };
+		CF01C08D2C14BD2C001BD2BC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CF01C08C2C14BD2C001BD2BC /* Base */; };
+		CF01C08F2C14BD2D001BD2BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF01C08E2C14BD2D001BD2BC /* Assets.xcassets */; };
+		CF01C0922C14BD2D001BD2BC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CF01C0912C14BD2D001BD2BC /* Base */; };
+		CF01C09D2C14BD2D001BD2BC /* CryptoCrazyRxMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF01C09C2C14BD2D001BD2BC /* CryptoCrazyRxMVVMTests.swift */; };
+		CF01C0A72C14BD2D001BD2BC /* CryptoCrazyRxMVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF01C0A62C14BD2D001BD2BC /* CryptoCrazyRxMVVMUITests.swift */; };
+		CF01C0A92C14BD2D001BD2BC /* CryptoCrazyRxMVVMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF01C0A82C14BD2D001BD2BC /* CryptoCrazyRxMVVMUITestsLaunchTests.swift */; };
+		CF01C0BA2C14C2B3001BD2BC /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF01C0B92C14C2B3001BD2BC /* Crypto.swift */; };
+		CF16A5F42C161AE000900C07 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF16A5F32C161ADF00900C07 /* Webservice.swift */; };
+		CF3861B12C162E0C009616E4 /* CryptoViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3861B02C162E0C009616E4 /* CryptoViewModal.swift */; };
+		CF3861C02C162F99009616E4 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CF3861BF2C162F99009616E4 /* RxSwift */; };
+		CF3861C92C16348D009616E4 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = CF3861C82C16348D009616E4 /* RxCocoa */; };
+		CF3861CB2C1639A8009616E4 /* CryptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3861CA2C1639A8009616E4 /* CryptoTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF01C0992C14BD2D001BD2BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF01C07A2C14BD2C001BD2BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF01C0812C14BD2C001BD2BC;
+			remoteInfo = CryptoCrazyRxMVVM;
+		};
+		CF01C0A32C14BD2D001BD2BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF01C07A2C14BD2C001BD2BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF01C0812C14BD2C001BD2BC;
+			remoteInfo = CryptoCrazyRxMVVM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF01C0822C14BD2C001BD2BC /* CryptoCrazyRxMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoCrazyRxMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF01C0852C14BD2C001BD2BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF01C0872C14BD2C001BD2BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CF01C0892C14BD2C001BD2BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF01C08C2C14BD2C001BD2BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF01C08E2C14BD2D001BD2BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF01C0912C14BD2D001BD2BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF01C0932C14BD2D001BD2BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF01C0982C14BD2D001BD2BC /* CryptoCrazyRxMVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoCrazyRxMVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF01C09C2C14BD2D001BD2BC /* CryptoCrazyRxMVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCrazyRxMVVMTests.swift; sourceTree = "<group>"; };
+		CF01C0A22C14BD2D001BD2BC /* CryptoCrazyRxMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoCrazyRxMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF01C0A62C14BD2D001BD2BC /* CryptoCrazyRxMVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCrazyRxMVVMUITests.swift; sourceTree = "<group>"; };
+		CF01C0A82C14BD2D001BD2BC /* CryptoCrazyRxMVVMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCrazyRxMVVMUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CF01C0B92C14C2B3001BD2BC /* Crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
+		CF16A5F32C161ADF00900C07 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		CF3861B02C162E0C009616E4 /* CryptoViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViewModal.swift; sourceTree = "<group>"; };
+		CF3861CA2C1639A8009616E4 /* CryptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF01C07F2C14BD2C001BD2BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3861C92C16348D009616E4 /* RxCocoa in Frameworks */,
+				CF3861C02C162F99009616E4 /* RxSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF01C0952C14BD2D001BD2BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF01C09F2C14BD2D001BD2BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF01C0792C14BD2C001BD2BC = {
+			isa = PBXGroup;
+			children = (
+				CF01C0842C14BD2C001BD2BC /* CryptoCrazyRxMVVM */,
+				CF01C09B2C14BD2D001BD2BC /* CryptoCrazyRxMVVMTests */,
+				CF01C0A52C14BD2D001BD2BC /* CryptoCrazyRxMVVMUITests */,
+				CF01C0832C14BD2C001BD2BC /* Products */,
+				CF3861C72C16348D009616E4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF01C0832C14BD2C001BD2BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF01C0822C14BD2C001BD2BC /* CryptoCrazyRxMVVM.app */,
+				CF01C0982C14BD2D001BD2BC /* CryptoCrazyRxMVVMTests.xctest */,
+				CF01C0A22C14BD2D001BD2BC /* CryptoCrazyRxMVVMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF01C0842C14BD2C001BD2BC /* CryptoCrazyRxMVVM */ = {
+			isa = PBXGroup;
+			children = (
+				CF01C0B82C14C189001BD2BC /* Service */,
+				CF01C0B72C14C14F001BD2BC /* Modal */,
+				CF01C0B62C14C146001BD2BC /* ViewModal */,
+				CF01C0B52C14C140001BD2BC /* View */,
+				CF01C08B2C14BD2C001BD2BC /* Main.storyboard */,
+				CF01C08E2C14BD2D001BD2BC /* Assets.xcassets */,
+				CF01C0902C14BD2D001BD2BC /* LaunchScreen.storyboard */,
+				CF01C0932C14BD2D001BD2BC /* Info.plist */,
+			);
+			path = CryptoCrazyRxMVVM;
+			sourceTree = "<group>";
+		};
+		CF01C09B2C14BD2D001BD2BC /* CryptoCrazyRxMVVMTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF01C09C2C14BD2D001BD2BC /* CryptoCrazyRxMVVMTests.swift */,
+			);
+			path = CryptoCrazyRxMVVMTests;
+			sourceTree = "<group>";
+		};
+		CF01C0A52C14BD2D001BD2BC /* CryptoCrazyRxMVVMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF01C0A62C14BD2D001BD2BC /* CryptoCrazyRxMVVMUITests.swift */,
+				CF01C0A82C14BD2D001BD2BC /* CryptoCrazyRxMVVMUITestsLaunchTests.swift */,
+			);
+			path = CryptoCrazyRxMVVMUITests;
+			sourceTree = "<group>";
+		};
+		CF01C0B52C14C140001BD2BC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF01C0852C14BD2C001BD2BC /* AppDelegate.swift */,
+				CF01C0872C14BD2C001BD2BC /* SceneDelegate.swift */,
+				CF01C0892C14BD2C001BD2BC /* ViewController.swift */,
+				CF3861CA2C1639A8009616E4 /* CryptoTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CF01C0B62C14C146001BD2BC /* ViewModal */ = {
+			isa = PBXGroup;
+			children = (
+				CF3861B02C162E0C009616E4 /* CryptoViewModal.swift */,
+			);
+			path = ViewModal;
+			sourceTree = "<group>";
+		};
+		CF01C0B72C14C14F001BD2BC /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				CF01C0B92C14C2B3001BD2BC /* Crypto.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		CF01C0B82C14C189001BD2BC /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CF16A5F32C161ADF00900C07 /* Webservice.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CF3861C72C16348D009616E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF01C0812C14BD2C001BD2BC /* CryptoCrazyRxMVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF01C0AC2C14BD2D001BD2BC /* Build configuration list for PBXNativeTarget "CryptoCrazyRxMVVM" */;
+			buildPhases = (
+				CF01C07E2C14BD2C001BD2BC /* Sources */,
+				CF01C07F2C14BD2C001BD2BC /* Frameworks */,
+				CF01C0802C14BD2C001BD2BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoCrazyRxMVVM;
+			packageProductDependencies = (
+				CF3861BF2C162F99009616E4 /* RxSwift */,
+				CF3861C82C16348D009616E4 /* RxCocoa */,
+			);
+			productName = CryptoCrazyRxMVVM;
+			productReference = CF01C0822C14BD2C001BD2BC /* CryptoCrazyRxMVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF01C0972C14BD2D001BD2BC /* CryptoCrazyRxMVVMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF01C0AF2C14BD2D001BD2BC /* Build configuration list for PBXNativeTarget "CryptoCrazyRxMVVMTests" */;
+			buildPhases = (
+				CF01C0942C14BD2D001BD2BC /* Sources */,
+				CF01C0952C14BD2D001BD2BC /* Frameworks */,
+				CF01C0962C14BD2D001BD2BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF01C09A2C14BD2D001BD2BC /* PBXTargetDependency */,
+			);
+			name = CryptoCrazyRxMVVMTests;
+			productName = CryptoCrazyRxMVVMTests;
+			productReference = CF01C0982C14BD2D001BD2BC /* CryptoCrazyRxMVVMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF01C0A12C14BD2D001BD2BC /* CryptoCrazyRxMVVMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF01C0B22C14BD2D001BD2BC /* Build configuration list for PBXNativeTarget "CryptoCrazyRxMVVMUITests" */;
+			buildPhases = (
+				CF01C09E2C14BD2D001BD2BC /* Sources */,
+				CF01C09F2C14BD2D001BD2BC /* Frameworks */,
+				CF01C0A02C14BD2D001BD2BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF01C0A42C14BD2D001BD2BC /* PBXTargetDependency */,
+			);
+			name = CryptoCrazyRxMVVMUITests;
+			productName = CryptoCrazyRxMVVMUITests;
+			productReference = CF01C0A22C14BD2D001BD2BC /* CryptoCrazyRxMVVMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF01C07A2C14BD2C001BD2BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CF01C0812C14BD2C001BD2BC = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					CF01C0972C14BD2D001BD2BC = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CF01C0812C14BD2C001BD2BC;
+					};
+					CF01C0A12C14BD2D001BD2BC = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CF01C0812C14BD2C001BD2BC;
+					};
+				};
+			};
+			buildConfigurationList = CF01C07D2C14BD2C001BD2BC /* Build configuration list for PBXProject "CryptoCrazyRxMVVM" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF01C0792C14BD2C001BD2BC;
+			packageReferences = (
+				CF3861B22C162F99009616E4 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
+			productRefGroup = CF01C0832C14BD2C001BD2BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF01C0812C14BD2C001BD2BC /* CryptoCrazyRxMVVM */,
+				CF01C0972C14BD2D001BD2BC /* CryptoCrazyRxMVVMTests */,
+				CF01C0A12C14BD2D001BD2BC /* CryptoCrazyRxMVVMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF01C0802C14BD2C001BD2BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF01C08F2C14BD2D001BD2BC /* Assets.xcassets in Resources */,
+				CF01C0922C14BD2D001BD2BC /* Base in Resources */,
+				CF01C08D2C14BD2C001BD2BC /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF01C0962C14BD2D001BD2BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF01C0A02C14BD2D001BD2BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF01C07E2C14BD2C001BD2BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF01C0BA2C14C2B3001BD2BC /* Crypto.swift in Sources */,
+				CF3861B12C162E0C009616E4 /* CryptoViewModal.swift in Sources */,
+				CF01C08A2C14BD2C001BD2BC /* ViewController.swift in Sources */,
+				CF01C0862C14BD2C001BD2BC /* AppDelegate.swift in Sources */,
+				CF16A5F42C161AE000900C07 /* Webservice.swift in Sources */,
+				CF01C0882C14BD2C001BD2BC /* SceneDelegate.swift in Sources */,
+				CF3861CB2C1639A8009616E4 /* CryptoTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF01C0942C14BD2D001BD2BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF01C09D2C14BD2D001BD2BC /* CryptoCrazyRxMVVMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF01C09E2C14BD2D001BD2BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF01C0A72C14BD2D001BD2BC /* CryptoCrazyRxMVVMUITests.swift in Sources */,
+				CF01C0A92C14BD2D001BD2BC /* CryptoCrazyRxMVVMUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF01C09A2C14BD2D001BD2BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF01C0812C14BD2C001BD2BC /* CryptoCrazyRxMVVM */;
+			targetProxy = CF01C0992C14BD2D001BD2BC /* PBXContainerItemProxy */;
+		};
+		CF01C0A42C14BD2D001BD2BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF01C0812C14BD2C001BD2BC /* CryptoCrazyRxMVVM */;
+			targetProxy = CF01C0A32C14BD2D001BD2BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF01C08B2C14BD2C001BD2BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF01C08C2C14BD2C001BD2BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF01C0902C14BD2D001BD2BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF01C0912C14BD2D001BD2BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF01C0AA2C14BD2D001BD2BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF01C0AB2C14BD2D001BD2BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF01C0AD2C14BD2D001BD2BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CryptoCrazyRxMVVM/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mustafadns.CryptoCrazyRxMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF01C0AE2C14BD2D001BD2BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CryptoCrazyRxMVVM/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mustafadns.CryptoCrazyRxMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF01C0B02C14BD2D001BD2BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mustafadns.CryptoCrazyRxMVVMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoCrazyRxMVVM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CryptoCrazyRxMVVM";
+			};
+			name = Debug;
+		};
+		CF01C0B12C14BD2D001BD2BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mustafadns.CryptoCrazyRxMVVMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoCrazyRxMVVM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CryptoCrazyRxMVVM";
+			};
+			name = Release;
+		};
+		CF01C0B32C14BD2D001BD2BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mustafadns.CryptoCrazyRxMVVMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CryptoCrazyRxMVVM;
+			};
+			name = Debug;
+		};
+		CF01C0B42C14BD2D001BD2BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mustafadns.CryptoCrazyRxMVVMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CryptoCrazyRxMVVM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF01C07D2C14BD2C001BD2BC /* Build configuration list for PBXProject "CryptoCrazyRxMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF01C0AA2C14BD2D001BD2BC /* Debug */,
+				CF01C0AB2C14BD2D001BD2BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF01C0AC2C14BD2D001BD2BC /* Build configuration list for PBXNativeTarget "CryptoCrazyRxMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF01C0AD2C14BD2D001BD2BC /* Debug */,
+				CF01C0AE2C14BD2D001BD2BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF01C0AF2C14BD2D001BD2BC /* Build configuration list for PBXNativeTarget "CryptoCrazyRxMVVMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF01C0B02C14BD2D001BD2BC /* Debug */,
+				CF01C0B12C14BD2D001BD2BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF01C0B22C14BD2D001BD2BC /* Build configuration list for PBXNativeTarget "CryptoCrazyRxMVVMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF01C0B32C14BD2D001BD2BC /* Debug */,
+				CF01C0B42C14BD2D001BD2BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CF3861B22C162F99009616E4 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CF3861BF2C162F99009616E4 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF3861B22C162F99009616E4 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		CF3861C82C16348D009616E4 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF3861B22C162F99009616E4 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CF01C07A2C14BD2C001BD2BC /* Project object */;
+}
